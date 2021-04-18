@@ -10,14 +10,12 @@
                         y = array[i];
                         array[i] = array[i+1];
                         array[i+1] = y;
-
                     }
                 }
             }
             for (int x : array) {
                 System.out.print(x + " ");
             }
-
         }
     }
 
